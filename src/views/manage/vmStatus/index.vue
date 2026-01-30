@@ -58,7 +58,6 @@ import { listPartner } from "@/api/manage/partner";
 import { loadAllParams } from "@/api/page"
 import { listNode } from "@/api/manage/node";
 import { listRegion } from "@/api/manage/region";
-import { get } from "@vueuse/core";
 
 const { proxy } = getCurrentInstance();
 const { vm_status } = proxy.useDict('vm_status');
